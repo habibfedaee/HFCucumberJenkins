@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-09-21T16:08:23.346Z",
+        "line": 7,
+        "name": "admin login",
+        "description": "",
+        "id": "validation-of-login-scenarios;admin-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32518000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated tot he HRMS application",
+            "match": {
+              "location": "Steps.LoginSteps.user_is_navigated_tot_he_hrms_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 445000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters valid admin credentials",
+            "match": {
+              "location": "Steps.LoginSteps.user_enters_valid_admin_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1970000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "Steps.LoginSteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "admin user is successfully logged in",
+            "match": {
+              "location": "Steps.LoginSteps.admin_user_is_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@sprint22"
+          },
+          {
+            "name": "@adminLogin"
+          }
+        ]
+      }
+    ],
+    "name": "validation of login scenarios",
+    "description": "",
+    "id": "validation-of-login-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
